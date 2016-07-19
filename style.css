@@ -1,0 +1,51 @@
+body {
+  background-color:#fff200;
+  z-index: -1;
+  font-family: 'News Cycle', sans-serif;
+  font-weight: lighter;
+  -webkit-font-smooter: antilialised;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  margin-left: 50px;
+}
+
+.container-fluid {
+  background-size: cover;
+  height: 400px;
+  /*background-image: url('http://i.imgur.com/xyb58TP.jpg');*/
+}
+
+#mainTitle {
+  font-size: 6em;
+  margin-top: 7.5vh;
+}
+
+.box1 {
+  width: 250px;
+  height: 325px;
+  border: 1px solid black;
+  display: inline-block;
+  float: left;
+  text-align: center;
+
+}
+
+.bioContainer {
+  text-align: center;
+}
+
+
+#pics {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 5vw;
+  opacity: .75;
+}
+
+p {
+  text-align: left;
+}
