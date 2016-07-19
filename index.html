@@ -3,67 +3,87 @@
 <head>
   <meta charset="UTF-8">
   <title>Right Here Buddy</title>
+  <link rel="stylesheet" href="  https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
   <link href="https://fonts.googleapis.com/css?family=News+Cycle" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
   <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
 </head>
 <body>
-  <nav class="navbar">
-    <img src="./images/BUDDY_icon_black.png" alt="" />
-  </nav>
-  <div class="container-fluid">
-    <div class="container text-center">
-    <h1 id="mainTitle">A digital design studio in <br>Bozeman, Montana</h1>
+
+  <div class="container">
+    <img src="./images/Buddy_icon_black.png" alt="" id="logo" />
   </div>
-  </div>
-  <div class="container-fluid">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="box1">
-            <h2>Digital</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="box1">
-            <h2>Design</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="box1">
-            <h2>Strategy</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-          </div>
-        </div>
-      </div>
+
+  <!-- title container -->
+
+  <div class="container title-container">
+    <div class="title">
+      <h1 id="main-title">A digital design studio in <br>Bozeman, Montana</h1>
     </div>
   </div>
-  <br>
-  <br>
-  <div class="container bioContainer">
-    <div class="row">
-      <div class="col-md-6 bios">
-        <img src="./images/eric_yellow.jpg" alt="" id="pics" />
-        <br>
+
+  <!-- strategy -->
+
+  <div class="container about-container">
+      <div class="strat-container">
+        <h1><i class="fa fa-pencil" aria-hidden="true"></i></h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+
+      </div>
+      <div class="strat-container">
+        <h1><i class="fa fa-laptop" aria-hidden="true"></i></h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </div>
-      <div class="col-md-6 bios">
-        <img src="./images/mike_yellow.jpg" alt="" id="pics" />
-        <br>
+      <div class="strat-container">
+        <h1><i class="fa fa-globe" aria-hidden="true"></i></h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </div>
+  </div>
+
+
+    <!-- bio content -->
+
+  <div class="container bio-container">
+    <div class="pic-container">
+      <img src="./images/eric_yellow.jpg" alt="" id="bio-pic"/>
+      <br>
+      <br>
+      <p>
+        "Quotes of the century!"
+      </p>
+    </div>
+    <div class="pic-container">
+      <img src="./images/mike_yellow.jpg" alt="" id="bio-pic" />
+      <br>
+      <br>
+      <p>
+        "Quotes of the century!"
+      </p>
+    </div>
+  </div>
+
+  <!-- footer and contact infor -->
+
+  <div class="container footer-container">
+    <div class="contact-container">
+      <h2><i class="fa fa-envelope" aria-hidden="true"></i> <small> rightherebuddystudio@gmail.com</small></h2>
+
+    </div>
+    <div class="phone-container">
+      <h2><i class="fa fa-phone" aria-hidden="true"></i> <small> xxx-xxxx</small></h2>
+    </div>
+    <div class="social-container">
+      <ul class="social-icons">
+        <li id="twitter"><h2><i class="fa fa-twitter" aria-hidden="true"></i></h2></li>
+        <li id="facebook"><h2><i class="fa fa-facebook" aria-hidden="true"></i></h2></li>
+        <li id="github"><h2><i class="fa fa-github" aria-hidden="true"></i></h2></li>
+      </ul>
     </div>
   </div>
 
