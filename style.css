@@ -2,8 +2,6 @@ body {
   background-color:#fff200;
   z-index: -1;
   font-family: 'News Cycle', sans-serif;
-  font-weight: lighter;
-  -webkit-font-smooter: antilialised;
 }
 
 img {
@@ -47,5 +45,5 @@ img {
 }
 
 p {
-  text-align: left;
+  text-align: center;
 }
