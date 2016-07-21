@@ -6,6 +6,7 @@
 body {
   background-color:#fff200;
   z-index: -1;
+  font-weight: bold;
   font-family: 'News Cycle', sans-serif;
 }
 
