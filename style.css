@@ -3,6 +3,7 @@
 /*header css*/
 
 
+
 body {
   background-color:#fff200;
   z-index: -1;
@@ -32,11 +33,14 @@ body {
       bottom: 0; }
 
 .logo {
+
   width: 27rem;
-  margin-left: 5rem;
+  margin-top: 5rem;
+  margin-left: 4.5rem;
 }
 
 #logo {
+
   width: 150px;
   height: 150px;
 }
@@ -65,7 +69,7 @@ body {
 
 
 .line-container {
-  width: 60%;
+  width: 50%;
   margin-left: 7rem;
   margin-top: 8rem;
 }
@@ -88,6 +92,7 @@ p {
 .about-container {
   margin-top: 10rem;
   margin-left: 7rem;
+  margin-right: 7rem;
   display: flex;
   justify-content: flex-start;
 
@@ -149,8 +154,13 @@ p {
 
 
 
-#twitter,#facebook,#github {
+#twitter,#facebook,#github, #email, #phone {
   list-style: none;
   display: inline-block;
-  margin-right: 3vw;
+  margin-right: 3rem;
+  color: #fff200;
+}
+
+small {
+  color: #fff200;
 }
